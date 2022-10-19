@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPS GAME</title>
+    <link rel="stylesheet" href="styl.css" />
+  </head>
+  <body>
+    <h1>RPS GAME</h1>
+    <div class="scores">
+      <p class="player">PLAYER</p>
+      <span class="player-points"></span>
+      <span class="comp-points"></span>
+      <p class="comp">COMP</p>
+    </div>
+    <section class="options">
+      <button data-option="ROCK">ROCK</button>
+      <button data-option="PAPER">PAPER</button>
+      <button data-option="SCISSORS">SCISSORS</button>
+    </section>
+    <div class="choices">
+      <p class="player">
+        Player choice: <span class="player-choice">ROCK</span>
+      </p>
+      <p class="comp">Comp choice: <span class="comp-choice">ROCK</span></p>
+    </div>
+    <p class="result-text"></p>
+    <button class="reset-game">Reset Game</button>
+    <script src="app.js"></script>
+  </body>
+</html>
