@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="styl.css" />
   </head>
   <body>
-    <h1>RPS GAME</h1>
+    <div class="container">
+    <h1 class="title">RPS GAME</h1>
     <div class="scores">
       <p class="player">PLAYER</p>
       <span class="player-points"></span>
@@ -16,9 +17,9 @@
       <p class="comp">COMP</p>
     </div>
     <section class="options">
-      <button data-option="ROCK">ROCK</button>
-      <button data-option="PAPER">PAPER</button>
-      <button data-option="SCISSORS">SCISSORS</button>
+      <button data-option="ROCK"><img src="rock.png" alt=""/></button>
+      <button data-option="PAPER"><img src="paper.png" alt=""/></button>
+      <button data-option="SCISSORS"><img src="scissors.png" alt=""/></button>
     </section>
     <div class="choices">
       <p class="player">
@@ -28,6 +29,7 @@
     </div>
     <p class="result-text"></p>
     <button class="reset-game">Reset Game</button>
+  </div>
     <script src="app.js"></script>
   </body>
 </html>
